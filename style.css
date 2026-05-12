@@ -42,6 +42,14 @@ body {
   background: var(--cream);
   color: var(--ink);
   overflow-x: hidden;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Re-enable selection only on actual links (email, phone etc) */
+a {
+  user-select: text;
+  -webkit-user-select: text;
 }
 
 ::-webkit-scrollbar { width: 5px; }
