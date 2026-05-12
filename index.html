@@ -108,13 +108,41 @@
       <div class="hero-photo-wrap fade-in">
         <div class="hero-photo-frame">
           <div class="photo-placeholder" id="photoPlaceholder">
-            <div class="photo-initials">SSR</div>
-            <div class="photo-initials-label">Adv. Syed Sibtain Razvi</div>
-            <div class="photo-add-hint">Photo to be added</div>
+            <img
+              src="https://sibtain.ssrworks.in/SSR_Image.png"
+              alt="Advocate Syed Sibtain Razvi"
+              style="
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: top center;
+                border-radius: 180px 180px 120px 120px;
+                display: block;
+                filter: contrast(1.05) brightness(0.92) saturate(0.85);
+              "
+            >
+            <div style="
+              position: absolute;
+              bottom: 18px;
+              left: 50%;
+              transform: translateX(-50%);
+              background: rgba(26,58,42,0.82);
+              border: 0.5px solid rgba(201,168,76,0.5);
+              color: #e8d5a0;
+              font-family: 'Cinzel', serif;
+              font-size: clamp(9px,2vw,11px);
+              letter-spacing: 0.14em;
+              text-transform: uppercase;
+              padding: 6px 16px;
+              border-radius: 20px;
+              white-space: nowrap;
+              backdrop-filter: blur(6px);
+              z-index: 3;
+            ">Adv. Syed Sibtain Razvi</div>
           </div>
           <div class="photo-corner-tl"></div>
           <div class="photo-corner-br"></div>
-          <img class="hero-logo-badge" src="https://sibtain.ssrworks.in/SSR_A_Logo_BG.png" alt="SSR&A Badge">
+          <img class="hero-logo-badge" src="https://sibtain.ssrworks.in/SSR_A_Logo_BG.png" alt="SSR&A Badge" style="bottom:auto;top:-20px;">
         </div>
         <input type="file" id="photoInput" accept="image/*" style="display:none">
       </div>
